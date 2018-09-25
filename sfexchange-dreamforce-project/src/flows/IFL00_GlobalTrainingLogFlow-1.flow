@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Creates an Onboarding__c record. Requires `TrainingName` to be set.
+Used to log who underwent what training.</description>
+    <interviewLabel>IFL00_GlobalTrainingLogFlow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>IFL00_GlobalTrainingLogFlow</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <description>Creates the Onboarding record.</description>
+        <name>START_CreateLog</name>
+        <label>START_CreateLog</label>
+        <locationX>229</locationX>
+        <locationY>117</locationY>
+        <inputAssignments>
+            <field>Timedone__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>TrainingName__c</field>
+            <value>
+                <elementReference>TrainingName</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Log__c</object>
+    </recordCreates>
+    <startElementReference>START_CreateLog</startElementReference>
+    <variables>
+        <name>TrainingName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

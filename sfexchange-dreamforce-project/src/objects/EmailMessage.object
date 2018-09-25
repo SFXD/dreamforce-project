@@ -54,6 +54,9 @@
         <fullName>IsExternallyVisible</fullName>
     </fields>
     <fields>
+        <fullName>IsPrivateDraft</fullName>
+    </fields>
+    <fields>
         <fullName>MessageDate</fullName>
     </fields>
     <fields>

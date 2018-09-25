@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>SET_Stage</name>
+        <label>SET_Stage</label>
+        <locationX>115</locationX>
+        <locationY>51</locationY>
+        <assignmentItems>
+            <assignToReference>$Flow.CurrentStage</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Navigation</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>Trains user on Accounts.</description>
+    <interviewLabel>IFL04_AccountTraining {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>IFL04_AccountTraining</label>
+    <processType>AutoLaunchedFlow</processType>
+    <stages>
+        <name>Basic_Information</name>
+        <isActive>true</isActive>
+        <label>Basic Information</label>
+        <stageOrder>2</stageOrder>
+    </stages>
+    <stages>
+        <name>Creation</name>
+        <isActive>true</isActive>
+        <label>Creation</label>
+        <stageOrder>3</stageOrder>
+    </stages>
+    <stages>
+        <name>Navigation</name>
+        <isActive>true</isActive>
+        <label>Navigation</label>
+        <stageOrder>1</stageOrder>
+    </stages>
+    <startElementReference>SET_Stage</startElementReference>
+</Flow>

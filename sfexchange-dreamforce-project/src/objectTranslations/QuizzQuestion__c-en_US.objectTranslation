@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quizz Question</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quizz Questions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Number Correct Answers --></label>
+        <name>NbCorrectAuto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quizz Name --></label>
+        <name>QuizzNameAuto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quizz --></label>
+        <name>QuizzRef__c</name>
+        <relationshipLabel><!-- Quizz Questions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Multiple Choice</masterLabel>
+            <translation><!-- Multiple Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Choice</masterLabel>
+            <translation><!-- Single Choice --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Quizz Question Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

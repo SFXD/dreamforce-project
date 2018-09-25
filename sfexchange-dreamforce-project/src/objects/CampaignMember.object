@@ -17,7 +17,7 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Create_Opportunity</actionName>
+        <actionName>CreateOpportunity</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -119,4 +119,5 @@
     <fields>
         <fullName>Title</fullName>
     </fields>
+    <sharingModel>ControlledByCampaign</sharingModel>
 </CustomObject>

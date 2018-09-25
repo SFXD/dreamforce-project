@@ -85,7 +85,7 @@
     <fields>
         <fullName>DeliveryInstallationStatus__c</fullName>
         <externalId>false</externalId>
-        <label>Delivery/Installation Status</label>
+        <label>Delivery/Install Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -213,8 +213,16 @@
     </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <label>All Opportunities</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>ClosingNextMonth</fullName>

@@ -22,10 +22,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>ApexTrigger</name>
     </types>
     <types>
@@ -40,10 +36,6 @@
         <members>Case</members>
         <members>Lead</members>
         <name>AssignmentRules</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AssistantRecommendationType</name>
     </types>
     <types>
         <members>*</members>
@@ -76,19 +68,11 @@
     </types>
     <types>
         <members>*</members>
-        <name>ChannelLayout</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>ChatterExtension</name>
     </types>
     <types>
         <members>*</members>
         <name>CleanDataService</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Community</name>
     </types>
     <types>
         <members>*</members>
@@ -101,10 +85,6 @@
     <types>
         <members>*</members>
         <name>CorsWhitelistOrigin</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CspTrustedSite</name>
     </types>
     <types>
         <members>*</members>
@@ -156,6 +136,7 @@
         <members>Idea</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
+        <members>Log__c</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
@@ -171,6 +152,10 @@
         <members>PricebookEntry</members>
         <members>Product2</members>
         <members>QuickText</members>
+        <members>QuizzAnswer__c</members>
+        <members>QuizzQuestion__c</members>
+        <members>Quizz__c</members>
+        <members>RecordAction</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
@@ -181,8 +166,10 @@
         <members>Task</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
+        <members>Training__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
+        <members>UserQuizzSignup__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -251,10 +238,6 @@
         <name>EmbeddedServiceConfig</name>
     </types>
     <types>
-        <members>Case</members>
-        <name>EscalationRules</name>
-    </types>
-    <types>
         <members>*</members>
         <name>EventDelivery</name>
     </types>
@@ -277,6 +260,10 @@
     <types>
         <members>*</members>
         <name>Flow</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlowCategory</name>
     </types>
     <types>
         <members>*</members>
@@ -312,25 +299,7 @@
     </types>
     <types>
         <members>*</members>
-        <name>LeadConvertSettings</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>Letterhead</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningExperienceTheme</name>
-    </types>
-    <types>
-        <members>Account</members>
-        <members>Contact</members>
-        <members>Lead</members>
-        <name>MatchingRules</name>
     </types>
     <types>
         <members>*</members>
@@ -409,15 +378,21 @@
         <members>Contact</members>
         <members>ExchangeUserMapping</members>
         <members>Lead</members>
+        <members>Log__c</members>
         <members>Macro</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>OrgDeleteRequest</members>
         <members>QuickText</members>
+        <members>QuizzAnswer__c</members>
+        <members>QuizzQuestion__c</members>
+        <members>Quizz__c</members>
         <members>Scorecard</members>
         <members>StreamingChannel</members>
+        <members>Training__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
+        <members>UserQuizzSignup__c</members>
         <members>unpackaged/package.xml</members>
         <name>SharingRules</name>
     </types>
@@ -455,7 +430,7 @@
     </types>
     <types>
         <members>*</members>
-        <name>Settings</name>
+        <name>Translations</name>
     </types>
     <version>42.0</version>
 </Package>

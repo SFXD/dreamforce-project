@@ -177,7 +177,11 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>Training__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Training__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

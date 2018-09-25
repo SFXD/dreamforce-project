@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Quizz Signup</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Quizz Signups</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active Quizz --></label>
+        <name>ActiveQuizz__c</name>
+    </fields>
+    <fields>
+        <label><!-- QuizzName --></label>
+        <name>QuizzNameAuto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quizz --></label>
+        <name>QuizzRef__c</name>
+        <relationshipLabel><!-- User Quizz Signups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>UserRef__c</name>
+        <relationshipLabel><!-- User Quizz Signups --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
